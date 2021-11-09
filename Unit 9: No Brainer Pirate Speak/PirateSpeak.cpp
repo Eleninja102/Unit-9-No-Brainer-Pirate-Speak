@@ -3,7 +3,8 @@
 #include <string>
 #include <sstream>
 #include <fstream>
-#include "Pirate.hpp"
+#include "Pirate.h"
+
 using namespace std;
 enum Choices {TRANSLATE = 1, ADD, QUIT};
 int menu();

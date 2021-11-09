@@ -29,6 +29,7 @@
 		1D6E134A2739769E0072D611 /* pirate.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pirate.csv; sourceTree = "<group>"; };
 		1D6E134C273976C60072D611 /* Pirate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Pirate.cpp; sourceTree = "<group>"; };
 		1D6E134D273976C60072D611 /* Pirate.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Pirate.hpp; sourceTree = "<group>"; };
+		1D802C252739F59200B0522C /* Pirate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pirate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +66,7 @@
 				1D6E13492739769E0072D611 /* PirateSpeak.cpp */,
 				1D6E134C273976C60072D611 /* Pirate.cpp */,
 				1D6E134D273976C60072D611 /* Pirate.hpp */,
+				1D802C252739F59200B0522C /* Pirate.h */,
 			);
 			path = "Unit 9: No Brainer Pirate Speak";
 			sourceTree = "<group>";

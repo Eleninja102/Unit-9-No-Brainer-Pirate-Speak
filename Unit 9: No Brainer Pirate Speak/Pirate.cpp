@@ -5,7 +5,7 @@
 //  Created by Coleton Watt on 11/8/21.
 //
 
-#include "Pirate.hpp"
+#include "Pirate.h"
 
 string Pirate::translateWord(string word){
     ifstream fin("pirate.csv", ios::in);
