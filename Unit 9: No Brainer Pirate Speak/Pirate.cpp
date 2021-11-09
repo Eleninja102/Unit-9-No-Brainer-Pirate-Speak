@@ -17,9 +17,9 @@ string Pirate::translateWord(string word){
             fin.close();
             return pirate;
         }
-        if(english == " "){
+        /*if(english == " "){
             break;
-        }
+        }*/
     
     }
     
