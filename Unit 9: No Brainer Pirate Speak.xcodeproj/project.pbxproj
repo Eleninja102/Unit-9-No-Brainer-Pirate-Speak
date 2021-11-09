@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D6E13432739767C0072D611 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E13422739767C0072D611 /* main.cpp */; };
+		1D6E134B2739769E0072D611 /* PirateSpeak.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E13492739769E0072D611 /* PirateSpeak.cpp */; };
+		1D6E134E273976C60072D611 /* Pirate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E134C273976C60072D611 /* Pirate.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,10 @@
 
 /* Begin PBXFileReference section */
 		1D6E133F2739767C0072D611 /* Unit 9: No Brainer Pirate Speak */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Unit 9: No Brainer Pirate Speak"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D6E13422739767C0072D611 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1D6E13492739769E0072D611 /* PirateSpeak.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PirateSpeak.cpp; sourceTree = "<group>"; };
+		1D6E134A2739769E0072D611 /* pirate.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pirate.csv; sourceTree = "<group>"; };
+		1D6E134C273976C60072D611 /* Pirate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Pirate.cpp; sourceTree = "<group>"; };
+		1D6E134D273976C60072D611 /* Pirate.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Pirate.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,10 @@
 		1D6E13412739767C0072D611 /* Unit 9: No Brainer Pirate Speak */ = {
 			isa = PBXGroup;
 			children = (
-				1D6E13422739767C0072D611 /* main.cpp */,
+				1D6E134A2739769E0072D611 /* pirate.csv */,
+				1D6E13492739769E0072D611 /* PirateSpeak.cpp */,
+				1D6E134C273976C60072D611 /* Pirate.cpp */,
+				1D6E134D273976C60072D611 /* Pirate.hpp */,
 			);
 			path = "Unit 9: No Brainer Pirate Speak";
 			sourceTree = "<group>";
@@ -119,7 +126,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D6E13432739767C0072D611 /* main.cpp in Sources */,
+				1D6E134E273976C60072D611 /* Pirate.cpp in Sources */,
+				1D6E134B2739769E0072D611 /* PirateSpeak.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
